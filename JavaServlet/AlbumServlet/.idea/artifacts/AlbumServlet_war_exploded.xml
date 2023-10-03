@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="AlbumServlet:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/AlbumServlet_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AlbumServlet" />
+        </element>
+        <element id="library" level="application" name="gson-2.10.1" />
+      </element>
+      <element id="javaee-facet-resources" facet="AlbumServlet/web/Web" />
+    </root>
+  </artifact>
+</component>
