@@ -2,7 +2,7 @@ module main
 
 go 1.21.1
 
-replace example.com/router => "C:/Program Files/Git/go"
+replace example.com/router => "./go"
 
 require example.com/router v0.0.0-00010101000000-000000000000
 
