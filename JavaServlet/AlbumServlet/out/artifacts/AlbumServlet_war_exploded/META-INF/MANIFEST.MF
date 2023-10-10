@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Created-By: IntelliJ IDEA
 Built-By: 74559
 Build-Jdk: Oracle OpenJDK version 20.0.2
 
+=======
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: 74559
+Build-Jdk: Oracle OpenJDK version 20.0.2
+
+>>>>>>> 1ff6e0005fbb7ef6c233e98204b0952d67d8f157

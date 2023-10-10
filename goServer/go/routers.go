@@ -51,21 +51,33 @@ var routes = Routes{
 	Route{
 		"Index",
 		"GET",
+<<<<<<< HEAD
 		"/AlbumStore/1.0.0/",
+=======
+		"/IGORTON/AlbumStore/1.0.0/",
+>>>>>>> 1ff6e0005fbb7ef6c233e98204b0952d67d8f157
 		Index,
 	},
 
 	Route{
 		"GetAlbumByKey",
 		strings.ToUpper("Get"),
+<<<<<<< HEAD
 		"/AlbumStore/1.0.0/albums/{albumID}",
+=======
+		"/IGORTON/AlbumStore/1.0.0/albums/{albumID}",
+>>>>>>> 1ff6e0005fbb7ef6c233e98204b0952d67d8f157
 		GetAlbumByKey,
 	},
 
 	Route{
 		"NewAlbum",
 		strings.ToUpper("Post"),
+<<<<<<< HEAD
 		"/AlbumStore/1.0.0/albums",
+=======
+		"/IGORTON/AlbumStore/1.0.0/albums",
+>>>>>>> 1ff6e0005fbb7ef6c233e98204b0952d67d8f157
 		NewAlbum,
 	},
 }

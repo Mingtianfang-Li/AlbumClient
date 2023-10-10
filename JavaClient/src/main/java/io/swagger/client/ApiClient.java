@@ -53,7 +53,11 @@ import io.swagger.client.auth.OAuth;
 
 public class ApiClient {
 
+<<<<<<< HEAD
     private String basePath;
+=======
+    private String basePath = "https://virtserver.swaggerhub.com/IGORTON/AlbumStore/1.0.0";
+>>>>>>> 1ff6e0005fbb7ef6c233e98204b0952d67d8f157
     private boolean debugging = false;
     private Map<String, String> defaultHeaderMap = new HashMap<String, String>();
     private String tempFolderPath = null;

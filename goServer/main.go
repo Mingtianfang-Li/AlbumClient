@@ -24,6 +24,7 @@ import (
 )
 
 func main() {
+<<<<<<< HEAD
 	log.Printf("Server started")
 
 	router := sw.NewRouter()
@@ -31,4 +32,12 @@ func main() {
 	log.Fatal(http.ListenAndServe(":8080", router))
 
 	//log.Fatal(http.ListenAndServe("localhost:8080", router))
+=======
+	// log.Printf("Server started")
+
+	router := sw.NewRouter()
+	print("HelloWord")
+
+	log.Fatal(http.ListenAndServe("localhost:8080", router))
+>>>>>>> 1ff6e0005fbb7ef6c233e98204b0952d67d8f157
 }
