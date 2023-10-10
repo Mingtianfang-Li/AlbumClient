@@ -36,7 +36,7 @@ public class clientPart2 {
         ExecutorService executorService = Executors.newFixedThreadPool(threadGroupSize);
 
         // Create a CSV file for recording data
-        String csvFileName = "GoTestGroup3.csv";
+        String csvFileName = "GoTest3.csv";
         BufferedWriter csvWriter = new BufferedWriter(new FileWriter(csvFileName));
         csvWriter.write("Start Time,Request Type,Latency (ms),Response Code\n");
 
