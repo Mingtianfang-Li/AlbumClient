@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AlbumServlet:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/AlbumServlet_war</output-path>
+    <root id="archive" name="AlbumServlet_war.war">
+      <element id="artifact" artifact-name="AlbumServlet:war exploded" />
+      <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.10.1" />
+      <element id="library" level="project" name="gson-2.10.1" />
+    </root>
+  </artifact>
+</component>
